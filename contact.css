@@ -1,0 +1,90 @@
+
+body{
+
+    background-image: url("shoe6.jpeg");
+    background-size: cover;
+    
+}
+#banner{
+    background:  linear-gradient(rgba(0,0,0,0),#009688);
+    background-position: center;
+    
+    background-size: cover;
+    height: 100vh;
+
+
+
+}
+.tap{
+    
+
+    width: 500px;
+    height: 10px;
+    display: block;
+    padding-bottom: 50px;
+    text-decoration: none;
+    color: white;
+    }
+    ul{
+
+        display: flex;
+        justify-content: center;
+    align-items: center;
+    }
+    ul li{list-style: none;
+        margin-left: 20px;
+        margin-top: 5px;
+        font-size: 20px;
+        text-decoration: none;
+        
+    
+    }
+    ul li a{
+        text-decoration: white;
+     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+     font-weight: bold;
+     transition: 0.4s ease-in-out;
+    
+    }
+    ul li a:hover{
+        color:white;
+    }
+}
+.small{
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+    font-style: italic;
+}
+.small h1{
+    font-size: 100px;
+    color:white;
+    font-weight: bold;
+    font-style: italic;
+
+}
+.small p{
+    font-size: 30px;
+    font-style: italic;
+
+}
+
+#for{
+    float: left;
+    width: 700px;
+    height: 500px;
+    padding-left: 5px;
+    margin-left: 40px;
+    color: black;
+
+}
+p {
+    text-decoration: white;
+ font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+ font-weight: bold;
+ transition: 0.4s ease-in-out;
+
+}
+p :hover{
+    color: orangered;
+}
